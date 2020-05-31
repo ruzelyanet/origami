@@ -395,6 +395,7 @@ body {
   width: 100px;
   height: 100px;
   border: 1px solid #363a48;
+  margin: -1px 0 0 -1px;
 }
 
 .matrix-path-marker {
@@ -431,6 +432,12 @@ body {
 
 .matrix-9 {
   width: 900px;
+}
+
+.matrix .option-box {
+  border: none;
+  width: 100%;
+  height: 100%;
 }
 
 .option-box {
@@ -484,6 +491,18 @@ body {
   background: #ffffff;
 }
 
+.option-box-rotate-0 {
+  transform: rotate(0);
+}
+
+.option-box-rotate-45 {
+  transform: rotate(45deg);
+}
+
+.option-box-rotate-90 {
+  transform: rotate(90deg);
+}
+
 .options {
   width: 372px;
   margin: 0 -12px;
@@ -494,8 +513,8 @@ body {
 }
 
 .options-item {
-  padding: 0 12px;
-  margin-bottom: 24px;
+  margin: 0 12px 24px 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .options-transfer {

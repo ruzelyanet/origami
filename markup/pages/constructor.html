@@ -1,88 +1,92 @@
 <!DOCTYPE html>
 <html class="no-js" lang="ru">
-    <head>
-        {{> head/head head.defaults}}
-    </head>
+  <head>
+    {{> head/head head.defaults}}
+  </head>
 
-    <body>
-        <div class="container">
-            <div class="top-space">
-                <div class="link-to-back">
-                    <a href="#">Back to list</a>
-                </div>
+  <body>
+    <div class="container">
+      <div class="top-space">
+        <div class="link-to-back">
+          <a href="#">Back to list</a>
+        </div>
+      </div>
+
+      <div class="d-flex">
+        <div class="mr-4">
+          <div class="preview">
+            <div class="preview-img">
+              <img src="static/img/general/preview.png" alt="" />
             </div>
-
-            <div class="d-flex">
-                <div class="mr-4">
-                    <div class="preview">
-                        <div class="preview-img">
-                            <img src="static/img/general/preview.png" alt="" />
-                        </div>
-                        <div class="preview-name">
-                            1. Swan
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <div class="matrix matrix-4 d-flex flex-wrap">
-                        <div class="matrix-path"></div>
-                        <div class="matrix-path"></div>
-                        <div class="matrix-path"></div>
-                        <div class="matrix-path"></div>
-                        <div class="matrix-path"></div>
-                        <div class="matrix-path"></div>
-                        <div class="matrix-path"></div>
-                        <div class="matrix-path"></div>
-                        <div class="matrix-path"></div>
-                        <div class="matrix-path"></div>
-                        <div class="matrix-path"></div>
-                        <div class="matrix-path"></div>
-                        <div class="matrix-path"></div>
-                        <div class="matrix-path"></div>
-                        <div class="matrix-path"></div>
-                        <div class="matrix-path"></div>
-                    </div>
-                </div>
-
-                <div class="ml-auto">
-                    <div class="options-wrap">
-                        <div class="options d-flex flex-wrap">
-                            <div class="options-item">
-                                <div
-                                    class="option-box option-box-yellow option-data"
-                                    data-data='{"color":"#faff00", "ruze":"ruz"}'
-                                ></div>
-                            </div>
-                            <div class="options-item">
-                                <div class="option-box option-box-red option-data"></div>
-                            </div>
-                            <div class="options-item">
-                                <div class="option-box option-box-red-white option-data"></div>
-                            </div>
-                            <div class="options-item">
-                                <div class="option-box option-box-blue option-data"></div>
-                            </div>
-                            <div class="options-item">
-                                <div class="option-box option-box-white option-data"></div>
-                            </div>
-                            <div class="options-item">
-                                <div class="option-box option-box-blue-yellow option-data"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="options-transfer"></div>
-
-                    <div class="text-right">
-                        <button class="btn btn-success">Next</button>
-                    </div>
-                </div>
+            <div class="preview-name">
+              1. Swan
             </div>
-
-            <div class="space-100"></div>
+          </div>
         </div>
 
-        <script src="%=static=%js/main%=hash=%%=min=%.js"></script>
-    </body>
+        <div>
+          <div class="matrix d-flex flex-wrap" id="matrix">
+            <!-- <div class="matrix-path"></div>
+            <div class="matrix-path"></div>
+            <div class="matrix-path"></div>
+            <div class="matrix-path"></div>
+            <div class="matrix-path"></div>
+            <div class="matrix-path"></div>
+            <div class="matrix-path"></div>
+            <div class="matrix-path"></div>
+            <div class="matrix-path"></div>
+            <div class="matrix-path"></div>
+            <div class="matrix-path"></div>
+            <div class="matrix-path"></div>
+            <div class="matrix-path"></div>
+            <div class="matrix-path"></div>
+            <div class="matrix-path"></div>
+            <div class="matrix-path"></div> -->
+          </div>
+        </div>
+
+        <div class="ml-auto">
+          <div class="options-wrap">
+            <div class="options d-flex flex-wrap" id="options">
+              <div class="options-item">
+                <div class="option-box option-box-red-white option-data"></div>
+              </div>
+
+              <!-- <div class="options-item">
+                <div
+                  class="option-box option-box-yellow option-data"
+                  data-data='{"color":"#faff00"}'
+                ></div>
+              </div>
+              <div class="options-item">
+                <div class="option-box option-box-red option-data"></div>
+              </div>
+              <div class="options-item">
+                <div class="option-box option-box-red-white option-data"></div>
+              </div>
+              <div class="options-item">
+                <div class="option-box option-box-blue option-data"></div>
+              </div>
+              <div class="options-item">
+                <div class="option-box option-box-white option-data"></div>
+              </div>
+              <div class="options-item">
+                <div class="option-box option-box-blue-yellow option-data"></div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="options-transfer"></div>
+
+          <div class="text-right">
+            <button class="btn btn-success">Check</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="space-100"></div>
+    </div>
+
+    <script src="%=static=%js/main%=hash=%%=min=%.js"></script>
+  </body>
 </html>
